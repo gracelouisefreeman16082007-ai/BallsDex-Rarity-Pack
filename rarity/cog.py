@@ -16,7 +16,7 @@ if TYPE_CHECKING:
 log = logging.getLogger("ballsdex.packages.rarity")
 
 # Configuration constants
-ITEMS_PER_PAGE = 2 # How many tiers are shown on a page
+ITEMS_PER_PAGE = 7 # How many tiers are shown on a page
 # INTEGER
 
 class RarityView(discord.ui.LayoutView):
